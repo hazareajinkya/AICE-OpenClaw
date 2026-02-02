@@ -12,7 +12,7 @@ export default function Hero() {
 
       <div className="space-y-4">
         <h1 className="gradient-text text-4xl font-semibold tracking-tight sm:text-5xl md:text-6xl">
-          AIC OpenClaw
+          AICE OpenClaw
         </h1>
         <p className="text-xs font-semibold uppercase tracking-[0.4em] text-[#ff6b6b]">
           World&apos;s First OpenClaw Service Provider

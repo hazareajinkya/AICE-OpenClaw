@@ -18,7 +18,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "OpenClaw AIC — World's First OpenClaw Service Provider",
+  title: "AICE OpenClaw — World's First OpenClaw Service Provider",
   description:
     "We set up your OpenClaw in a secure, production-ready environment. No terminal commands. No hassle. Just working AI.",
 };
