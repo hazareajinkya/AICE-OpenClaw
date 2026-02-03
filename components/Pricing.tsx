@@ -13,7 +13,7 @@ const starterTier = [
   "Runs 24/7 on a virtual server",
   "Control it from any messenger",
   "10 skills pre-installed",
-  "<strong>30 min</strong> consultation call to tailor skills for your business",
+  "<span class='text-[#2dd4bf] font-semibold'>30 min</span> consultation call to tailor skills for your business",
   "Support if you get stuck",
 ];
 
