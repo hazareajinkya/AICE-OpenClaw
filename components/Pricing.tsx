@@ -16,13 +16,6 @@ const starterTier = [
   "Support if you get stuck",
 ];
 
-const premiumTier = [
-  "Everything in $99, plus:",
-  "25 skills pre-installed",
-  "Help migrating your workflows",
-  "1 custom automation built for you",
-  "60 days priority support",
-];
 
 export default function Pricing() {
   return (
@@ -35,7 +28,7 @@ export default function Pricing() {
       </p>
       <h2 className="mt-3 text-3xl font-semibold text-white">Pick your lane.</h2>
 
-      <div className="mt-10 grid gap-6 lg:grid-cols-3">
+      <div className="mt-10 grid gap-6 lg:grid-cols-2 max-w-4xl">
         <div className="glass-card flex h-full flex-col rounded-2xl p-6">
           <h3 className="text-2xl font-semibold text-white">Free</h3>
           <p className="mt-2 text-sm text-slate-400">
@@ -75,23 +68,6 @@ export default function Pricing() {
           </button>
         </div>
 
-        <div className="flex h-full flex-col rounded-2xl p-6">
-          <div className="flex items-baseline gap-2">
-            <h3 className="text-3xl font-semibold text-white">$199</h3>
-            <span className="text-xs text-slate-400">/one-time</span>
-          </div>
-          <ul className="mt-6 space-y-3 text-sm text-slate-300">
-            {premiumTier.map((item) => (
-              <li key={item} className="flex gap-3">
-                <span className="text-[#ff6b6b]">✓</span>
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
-          <button className="mt-8 rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-white/80 transition hover:border-white/30 hover:text-white">
-            Get It All
-          </button>
-        </div>
       </div>
     </section>
   );
