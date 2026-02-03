@@ -61,9 +61,9 @@ export default function Pricing() {
           </div>
           <ul className="mt-6 space-y-3 text-sm text-slate-300">
             {starterTier.map((item, index) => (
-              <li key={item} className={`flex gap-3 ${index === 5 ? "bg-[#ff6b6b]/10 border border-[#ff6b6b]/30 rounded-lg px-3 py-2 -mx-3" : ""}`}>
+              <li key={item} className="flex gap-3">
                 <span className="text-[#ff6b6b]">✓</span>
-                <span className={index === 5 ? "text-[#ff6b6b] font-medium" : ""}>{item}</span>
+                <span className={index === 5 ? "text-white" : ""}>{item}</span>
               </li>
             ))}
           </ul>
