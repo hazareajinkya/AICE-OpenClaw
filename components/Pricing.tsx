@@ -17,7 +17,7 @@ const starterTier = [
 ];
 
 const premiumTier = [
-  "Everything in $119, plus:",
+  "Everything in $99, plus:",
   "25 skills pre-installed",
   "Help migrating your workflows",
   "1 custom automation built for you",
@@ -59,7 +59,7 @@ export default function Pricing() {
             MOST POPULAR
           </div>
           <div className="flex items-baseline gap-2">
-            <h3 className="text-3xl font-semibold text-white">$119</h3>
+            <h3 className="text-3xl font-semibold text-white">$99</h3>
             <span className="text-xs text-slate-400">/one-time</span>
           </div>
           <ul className="mt-6 space-y-3 text-sm text-slate-300">
@@ -77,7 +77,7 @@ export default function Pricing() {
 
         <div className="glass-card flex h-full flex-col rounded-2xl p-6">
           <div className="flex items-baseline gap-2">
-            <h3 className="text-3xl font-semibold text-white">$229</h3>
+            <h3 className="text-3xl font-semibold text-white">$199</h3>
             <span className="text-xs text-slate-400">/one-time</span>
           </div>
           <ul className="mt-6 space-y-3 text-sm text-slate-300">

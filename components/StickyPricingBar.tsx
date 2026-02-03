@@ -29,7 +29,7 @@ export default function StickyPricingBar() {
           <div className="flex-1">
             <p className="text-xs text-slate-400">Setup starting at</p>
             <p className="text-lg font-bold text-white">
-              $119 <span className="text-xs font-normal text-slate-400">/one-time</span>
+              $99 <span className="text-xs font-normal text-slate-400">/one-time</span>
             </p>
           </div>
           <a
