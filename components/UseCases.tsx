@@ -1,41 +1,41 @@
 const useCasesRow1 = [
-  "✉️ Organize your inbox",
-  "🌐 Translate messages in real time",
-  "🎫 Answer support tickets",
-  "📄 Summarize long documents",
-  "📊 Do your taxes",
+  "Organize your inbox",
+  "Translate messages in real time",
+  "Answer support tickets",
+  "Summarize long documents",
+  "Do your taxes",
 ];
 
 const useCasesRow2 = [
-  "💰 Track expenses and receipts",
-  "🛡️ Compare insurance quotes",
-  "📦 Manage subscriptions",
-  "⏰ Remind me of deadlines",
-  "🎟️ Find coupons",
+  "Track expenses and receipts",
+  "Compare insurance quotes",
+  "Manage subscriptions",
+  "Remind me of deadlines",
+  "Find coupons",
 ];
 
 const useCasesRow3 = [
-  "🔍 Find best prices online",
-  "💸 Find discount codes",
-  "📉 Price-drop alerts",
-  "📋 Compare product specs",
-  "📝 Create presentations from bullet points",
+  "Find best prices online",
+  "Find discount codes",
+  "Price-drop alerts",
+  "Compare product specs",
+  "Create presentations from bullet points",
 ];
 
 const useCasesRow4 = [
-  "✈️ Book travel and hotels",
-  "🍳 Find recipes from ingredients",
-  "📱 Draft social posts",
-  "🎯 Set and track goals",
-  "📧 Screen cold outreach",
+  "Book travel and hotels",
+  "Find recipes from ingredients",
+  "Draft social posts",
+  "Set and track goals",
+  "Screen cold outreach",
 ];
 
 const useCasesRow5 = [
-  "💼 Draft job descriptions",
-  "📈 Run standup summaries",
-  "📊 Track OKRs and KPIs",
-  "🗓️ Manage your calendar",
-  "✅ Check in for flights",
+  "Draft job descriptions",
+  "Run standup summaries",
+  "Track OKRs and KPIs",
+  "Manage your calendar",
+  "Check in for flights",
 ];
 
 export default function UseCases() {
