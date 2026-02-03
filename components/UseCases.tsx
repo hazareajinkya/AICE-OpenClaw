@@ -56,7 +56,7 @@ export default function UseCases() {
         </p>
       </div>
 
-      <div className="relative mt-12 overflow-hidden before:pointer-events-none before:absolute before:inset-y-0 before:left-0 before:z-10 before:w-24 before:bg-gradient-to-r before:from-[#060810] before:to-transparent after:pointer-events-none after:absolute after:inset-y-0 after:right-0 after:z-10 after:w-24 after:bg-gradient-to-l after:from-[#060810] after:to-transparent">
+      <div className="relative mt-12 overflow-hidden">
         <div className="space-y-4">
           {/* Row 1 */}
           <div className="usecase-track">
