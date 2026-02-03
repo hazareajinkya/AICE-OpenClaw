@@ -75,7 +75,7 @@ export default function Pricing() {
           </button>
         </div>
 
-        <div className="glass-card flex h-full flex-col rounded-2xl p-6">
+        <div className="flex h-full flex-col rounded-2xl p-6">
           <div className="flex items-baseline gap-2">
             <h3 className="text-3xl font-semibold text-white">$199</h3>
             <span className="text-xs text-slate-400">/one-time</span>
