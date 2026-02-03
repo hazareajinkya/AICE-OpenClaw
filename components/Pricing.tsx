@@ -42,9 +42,12 @@ export default function Pricing() {
               </li>
             ))}
           </ul>
-          <button className="mt-8 rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-white/80 transition hover:border-white/30 hover:text-white">
+          <a
+            href="/guide"
+            className="mt-8 inline-block rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-white/80 transition hover:border-white/30 hover:text-white text-center"
+          >
             Get Guide
-          </button>
+          </a>
         </div>
 
         <div id="plan-119" className="glass-card glow-card relative flex h-full flex-col rounded-2xl p-6">
