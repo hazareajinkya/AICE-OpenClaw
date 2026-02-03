@@ -13,7 +13,7 @@ const starterTier = [
   "Runs 24/7 on a virtual server",
   "Control it from any messenger",
   "10 skills pre-installed",
-  "<span class='text-[#2dd4bf] font-semibold'>30 min</span> consultation call to tailor skills for your business",
+  "30 min consultation call to tailor skills for your business",
   "Support if you get stuck",
 ];
 
@@ -63,7 +63,7 @@ export default function Pricing() {
             {starterTier.map((item, index) => (
               <li key={item} className="flex gap-3">
                 <span className="text-[#ff6b6b]">✓</span>
-                <span className={index === 5 ? "text-white" : ""} dangerouslySetInnerHTML={{ __html: item }} />
+                <span className={index === 5 ? "text-[#2dd4bf]" : ""}>{item}</span>
               </li>
             ))}
           </ul>
