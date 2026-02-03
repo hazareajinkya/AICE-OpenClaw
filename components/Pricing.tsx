@@ -67,9 +67,14 @@ export default function Pricing() {
               </li>
             ))}
           </ul>
-          <button className="mt-8 rounded-full bg-gradient-to-r from-[#ff6b6b] to-[#f97316] px-6 py-3 text-sm font-semibold text-black shadow-[0_12px_30px_rgba(255,107,107,0.35)] transition hover:translate-y-[-1px]">
+          <a
+            href="https://buy.stripe.com/cNiaEZgYqf8Rg27bcbc3m07"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 inline-block text-center rounded-full bg-gradient-to-r from-[#ff6b6b] to-[#f97316] px-6 py-3 text-sm font-semibold text-black shadow-[0_12px_30px_rgba(255,107,107,0.35)] transition hover:translate-y-[-1px]"
+          >
             Get Started →
-          </button>
+          </a>
         </div>
 
       </div>
